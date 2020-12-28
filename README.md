@@ -46,7 +46,7 @@ A code will be sent to the telegram account. Copy and enter the code when prompt
 # **EXECUTE**
 Run the following code:  
 
-> bash start.sh
+> bash run.sh  
 
 # **CAVEATS**
 If you notice that a bot action has taken over 30 seconds, you need to go to the telegram account and either complete that action manually or skip it for the bot to continue...  
