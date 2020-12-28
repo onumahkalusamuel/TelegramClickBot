@@ -11,7 +11,7 @@ BCH Click Bot
 Zcash Click Bot  
 BTC Click Bot  
 
-This script pauses for **30 seconds** afer each full cycle
+This script pauses for **60 seconds** after each full cycle of Join or Meessage operations for all bots  
 
 # **INSTALLATION**
 This bot runs on Android via Termux. Install termux from PlayStore.  

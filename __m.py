@@ -77,6 +77,7 @@ async def main():
 		# Message the bot
 		@client.on(events.NewMessage(chats=url_channel, incoming=True))
 		async def join_start(event):
+			channel_name = None
 			try:
 				message = event.raw_text
 				if 'Forward a message to' in message:	
