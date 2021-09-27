@@ -1,5 +1,3 @@
-pkg install python
-pkg install nano
 pip install --upgrade pip
 pip install telethon
 pip install requests

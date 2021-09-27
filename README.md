@@ -14,8 +14,10 @@ BTC Click Bot
 This script pauses for **60 seconds** after each full cycle of Join or Meessage operations for all bots  
 
 # **INSTALLATION**
-This bot runs on Android via Termux. Install termux from PlayStore.  
-To use the bot, you need to run the following commands in Termux:  
+This bot runs on Android via Termux and on *nix based system via terminal.
+Install termux from PlayStore. On a *nix system, ensure you have `nano` and `python3` installed. 
+Install with the appropriate package manager.
+To use the bot on Android, you need to run the following commands in Termux:  
 
 > apt update --pkg upgrade  
 
@@ -24,6 +26,9 @@ To use the bot, you need to run the following commands in Termux:
 > git clone https://github.com/onumahkalusamuel/TelegramClickBot  
 
 > cd TelegramClickBot  
+
+# **SETUP**
+Setup is very straightforward. Ensure you have `nano` and `python` installed. Then run the following command:
 
 > bash setup.sh  
 
@@ -36,8 +41,11 @@ and add numbers **in international format** (e.g. +233xxxxxxxxx)
 Each number **must** be on a separate line  
   
 Then run the following code to finish activation:  
-
+# android
 > python activate.py  
+
+# *nix
+python3 activate.py
 
 A code will be sent to the telegram account. Copy and enter the code when prompted for each phone number.  
   
@@ -52,4 +60,5 @@ Run the following code:
 If you notice that a bot action has taken over 30 seconds, you need to go to the telegram account and either complete that action manually or skip it for the bot to continue...  
 
 # **CREDITS**
-Thanks to SirGibbs for drawing my attention to Telegram Bots  
+Thanks to SirGibbs for drawing my attention to Telegram Bots
+Thanks to Jason for disturbing me to update the script again
