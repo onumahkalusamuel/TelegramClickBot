@@ -33,9 +33,9 @@ Setup is very straightforward. Ensure you have `nano` and `python` installed. Th
 > bash setup.sh  
 
 # **ACTIVATION**
-To activate bot, edit `phone.txt`
+To activate bot, make a copy of `phone.sample` into `phone.txt` and edit it using the following command
 
-> nano phone.txt  
+> cp phone.sample phone.txt && nano phone.txt  
 
 and add numbers **in international format** (e.g. +233xxxxxxxxx)  
 Each number **must** be on a separate line  
